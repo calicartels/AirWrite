@@ -1,20 +1,20 @@
 # Writing On Air
 
-This project is a machine learning implementation that enables users to write on air using hand gestures, and convert the handwritten text into digital text using Optical Character Recognition (OCR).
+This project is a machine learning implementation that enables users to write on air using hand gestures and convert the handwritten text into digital text using Optical Character Recognition (OCR).
 
 
 ## Description
 
-The project consists of two machine learning models. The first model is a hand landmark detection model, which is implemented using the Mediapipe pre-trained model. The second model is an OCR model, which is trained from scratch using Pytorch and a combination of the "IAM Online handwriting dataset" and "synthetic-data".
+The project consists of two machine-learning models. The first model is a hand landmark detection model, which is implemented using the Mediapipe pre-trained model. The second model is an OCR model, which is trained from scratch using Pytorch and a combination of the "IAM Online handwriting dataset" and "synthetic data".
 
-The OCR model achieved an accuracy of 99% for character accuracy and 95% for word accuracy on the training set, and 93% for character accuracy and 83.4% for word accuracy on the validation set. The model was trained for 100 epochs.
+The OCR model achieved an accuracy of 99% for character accuracy 95% for word accuracy on the training set, and 93% for character accuracy, and 83.4% for word accuracy on the validation set. The model was trained for 100 epochs.
 
 ## Getting Started
 
 To get started, clone this repository to your local machine:
 
 ```
-git clone https://github.com/ahmed-saad1997/Writing-On-Air.git
+git clone https://github.com/calicartels/AirWrite.git
 ```
 
 Then, install the required dependencies:
